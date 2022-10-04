@@ -20,7 +20,7 @@ namespace tflite {
 
 AllOpsResolver::AllOpsResolver() {
   // Please keep this list of Builtin Operators in alphabetical order.
-/*
+
   AddAbs();
   AddAdd();
   AddAddN();
@@ -52,9 +52,7 @@ AllOpsResolver::AllOpsResolver() {
   AddFloor();
   AddFloorDiv();
   AddFloorMod();
-*/
   AddFullyConnected();
-/*
   AddGather();
   AddGatherNd();
   AddGreater();
@@ -114,7 +112,6 @@ AllOpsResolver::AllOpsResolver() {
   AddVarHandle();
   AddWhile();
   AddZerosLike();
-*/
 }
 
 }  // namespace tflite
